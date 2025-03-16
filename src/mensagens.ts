@@ -2,12 +2,12 @@ class Mensagens {
 
     public listarOpcoes = () => {
         console.log(`Aqui você pode:`)
-        console.log(`Soma, Subtracao, Multiplicacao ou Dividisao, Potenciacao e Radiciacao números\n`)
+        console.log(`Soma, Subtracao, Multiplicacao ou Dividisao, Potenciacao, Radiciacao e Equacao números\n`)
     }
 
     public comoUsar = () => {
         console.log(`Para usar digite os números e a opção de cálculo separados por espaço como: "1.5 2.5 Soma"`)
-        console.log(`O resultado será a soma dos números: 4`)
+        console.log(`Para realizar uma equacao de segundo grau digitar apenas Equacao e seguir as proximas informacoes`)
         console.log(`Para encerrar digite "Sair"\n`)
     }
 
